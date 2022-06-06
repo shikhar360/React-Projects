@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(236, 218, 114);
+  position: relative;
+}
+.title {
+  background-color: inherit;
+  border: none;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+.title:focus,
+.description:focus {
+  outline: none;
+}
+.description {
+  background-color: inherit;
+  border: none;
+  font-size: 1.2rem;
+  resize: none;
+}
+.icon,
+.addbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.search-title {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.delete,
+.save {
+  width: 2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.save {
+  left: 0;
+}
+
+.add {
+  color: white;
+}
+
+.addbox {
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.saved {
+  background-color: rgb(157, 228, 157);
+}
+
+.saveadd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.wordCount {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+}
+
+.redit {
+  color: red;
+}
